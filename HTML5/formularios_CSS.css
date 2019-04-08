@@ -1,0 +1,33 @@
+.form{
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+}
+
+.form input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.etiqueta, .campo{
+    margin: 5px;
+    width: 200px;
+    display: block;
+}
+
+.boton{
+    margin: 5px;
+    width: 93px;
+}
+
+h1{
+    text-align: center;
+}
+
+.bloque{
+    display: inline-block;
+    width: 12em;
+    height: 5em;
+    background-color: olive;
+    margin: 5px;
+}

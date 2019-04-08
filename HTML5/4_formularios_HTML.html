@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Formularios HTML</title>
+    </head>
+    <body>
+        <header>
+            <h1>4_formularios_HTML.html</h1>
+        </header>
+        <input id="identificador"/>
+        <form action="#" method="GET">
+            Nombre: <input id="nombre" type="text" required="true" size="20" maxlength="20"/><br/><br/>
+            Apellidos: <input id="apellidos" type="text" required="true" size="40" maxlength="40"/><br/><br/>
+            Edad: <input type="number" required="true" min="1" max="80"> <br/><br/>
+            Codigo postal: <input type="number" pattern="[0-9]{5}"/><br/><br/>
+            Contraseña: <input type="password" placeholder="Password"/><br/><br/>
+            Correo: <input type="email" placeholder="Email"/><br/><br/>
+            <input type="button" value="Pulsar"/>
+            <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>

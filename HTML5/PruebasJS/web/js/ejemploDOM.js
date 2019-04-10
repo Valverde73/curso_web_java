@@ -21,10 +21,10 @@ $("#macro").html($("#macro").html() + "Otro texto desde jQuery");
 /*var arrayLIs = document.getElementsByClassName("unaClase");
 for (var i = 0; i < arrayLIs.length; i++){
     arrayLIs[i].innerHTML += " - " + i + "!!";
-}*/
+}*/ 
 
-$( "li" ).each(function( index ) {
-  console.log( index + ": " + $( this ).text() );
+$( ".unaClase" ).each(function( index ) {
+ $( this ).text(" - " + index + "!!") ;
 });
 
-$("unaClase").html("Cambiar valor");
+//$(".unaClase").html("Cambiar valor");
